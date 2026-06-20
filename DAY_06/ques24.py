@@ -1,0 +1,10 @@
+# Find x^n Without pow()
+x = int(input("Enter x: "))
+n = int(input("Enter n: "))
+
+result = 1
+
+for i in range(n):
+    result *= x
+
+print(result)
